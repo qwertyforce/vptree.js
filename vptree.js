@@ -308,7 +308,7 @@
 			},
 
 			list: function() {
-				return contents.map(function(item){ return {data: item.data, d: item.priority}; });
+				return contents.map(function(item){ return {i: item.data, d: item.priority}; });
 			}
 		};
 
@@ -347,7 +347,7 @@
 						element = S[elementID],
 						elementDist = distance(q, element);
 					if (elementDist < τ) {
-						τ = W.insert(element, elementDist) || τ;
+						τ = W.insert(elementID, elementDist) || τ;
 					}
 				}
 				return;
@@ -362,7 +362,7 @@
 
 			// This vantage-point is close enough to q.
 			if (dist < τ) {
-				τ = W.insert(p, dist) || τ;
+				τ = W.insert(id, dist) || τ;
 			}
 
 			// The order of exploration is determined by comparison with μ.
