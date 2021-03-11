@@ -1,0 +1,22 @@
+{
+  "name": "vptree",
+  "version": "1.0.0",
+  "description": "vptree.js\r =========",
+  "main": "vptree.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qwertyforce/vptree.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qwertyforce/vptree.js/issues"
+  },
+  "homepage": "https://github.com/qwertyforce/vptree.js#readme"
+}
